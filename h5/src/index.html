@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link href="css/mui.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/mui.picker.min.css">
+    <link rel="stylesheet" href="css/mui.poppicker.css">
+</head>
+
+<body>
+    <!-- //登录界面 -->
+    <div class="login">
+        <form class="mui-input-group">
+            <div class="mui-input-row">
+                <label>用户名</label>
+                <input type="text" class="mui-input-clear user" placeholder="请输入用户名">
+            </div>
+            <div class="mui-input-row">
+                <label>密码</label>
+                <input type="password" class="mui-input-password pwd" placeholder="请输入密码">
+            </div>
+            <div class="mui-button-row">
+                <button type="button" class="mui-btn mui-btn-primary btn affrim" style=" background-color: #FFE141 !important;">确认</button>
+                <button type="button" class="mui-btn mui-btn-danger btn cancel" style=" background-color: #FFE141 !important;">取消</button>
+            </div>
+        </form>
+    </div>
+    <!-- 主页面 -->
+    <div class="wrapper hide">
+        <!-- 主界面菜单同时移动 -->
+        <!-- 侧滑导航根容器 -->
+        <div class="mui-off-canvas-wrap mui-draggable">
+            <!-- 主页面容器 -->
+            <div class="mui-inner-wrap">
+                <!-- 菜单容器 -->
+                <aside class="mui-off-canvas-left" id="offCanvasSide">
+                    <div class="mui-scroll-wrapper">
+                        <div class="mui-scroll">
+                            <!-- 菜单具体展示内容 -->
+
+                        </div>
+                    </div>
+                </aside>
+                <!-- 主页面标题 -->
+                <header class="mui-bar mui-bcontentar-nav header">
+                    <!--  -->
+                    <div class="header_top">
+                        <!-- <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a> -->
+                        <h1 class="mui-title">柠檬记账</h1>
+                    </div>
+                    <div class="header_center">
+                        <div class="left">
+                            <span>本月支出（元）</span>
+                            <b>258</b>
+                        </div>
+                        <div class="right">
+                            <span class="month">月<i class="mui-icon mui-icon-arrowdown"></i></span>
+                            <span class="year timers">2019-03 <i class="mui-icon mui-icon-arrowdown"></i>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="header_bottom">
+                        <div class="left">
+                            <span>本月支出（元）</span>
+                        </div>
+                    </div>
+                </header>
+                <!-- 底部 -->
+                <nav class="mui-bar mui-bar-tab footer">
+                    <div>
+                        <a class="mui-tab-item mui-active">
+                            <span class="mui-icon mui-icon-home icon"></span>
+                            <span class="mui-tab-label txt">首页</span>
+                        </a>
+                        <a class="mui-tab-item">
+                            <span class="mui-icon mui-icon-phone icon"></span>
+                            <span class="mui-tab-label txt">电话</span>
+                        </a>
+                        <a class="mui-tab-item">
+                            <span class="mui-icon mui-icon-email icon"></span>
+                            <span class="mui-tab-label txt">邮件</span>
+                        </a>
+                        <a class="mui-tab-item exit">
+                            <span class="mui-icon mui-icon-gear icon"></span>
+                            <span class="mui-tab-label txt ">退出</span>
+                        </a>
+                    </div>
+                    <div class="addBox">
+                        <div class="add">
+                            <span class="mui-icon mui-icon-plusempty ic" style="font-size: 30px;"></span>
+                        </div>
+                    </div>
+                </nav>
+                <section class="title">
+                    <div class="titLeft">
+                        <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+                    </div>
+                    <ul class="tabs">
+                        <li class="active">账单</li>
+                        <li>图表</li>
+                    </ul>
+                    <div class="titRight">
+                        <i class=""></i>
+                    </div>
+                </section>
+                <!-- 主页面内容容器 -->
+                <div id="pullrefresh" class="mui-content mui-scroll-wrapper content">
+                    <div class="mui-scroll">
+
+                        <!--数据列表-->
+                        <ul class="mui-table-view mui-table-view-chevron menu" id="menu">
+                        </ul>
+                    </div>
+                </div>
+                <div class="mui-off-canvas-backdrop"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 单独选择年，月 -->
+    <!-- 年、月明确的日期 -->
+
+    <script type="text/javascript" src="./js/libs/require.js" async defer data-main="./js/index.js"></script>
+</body>
+
+</html>

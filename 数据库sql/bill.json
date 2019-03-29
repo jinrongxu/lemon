@@ -1,0 +1,10 @@
+{"_id":{"$oid":"5c9484728495dfcb784e40a3"},"uid":"5c9483a08495dfcb784e40a1","icon":"mui-icon mui-icon-contact","type":"支出","style":"餐饮","price":"20.00","date":"2019-03-22"}
+{"_id":{"$oid":"5c9484ba8495dfcb784e40a4"},"uid":"5c9483a98495dfcb784e40a2","icon":"mui-icon mui-icon-weixin","type":"支出","style":"水果","price":"25.00","date":"2019-03-22"}
+{"_id":{"$oid":"5c9484c98495dfcb784e40a5"},"uid":"5c9483a08495dfcb784e40a1","icon":"mui-icon mui-icon-home","type":"支出","style":"交通","price":"3.00","date":"2019-03-22"}
+{"_id":{"$oid":"5c9484e88495dfcb784e40a6"},"uid":"5c9483a98495dfcb784e40a2","icon":"mui-icon mui-icon-videocam","type":"支出","style":"饮料","price":"5.00","date":"2019-03-22"}
+{"_id":{"$oid":"5c9485098495dfcb784e40a7"},"uid":"5c9483a08495dfcb784e40a1","icon":"mui-icon mui-icon-weixin","type":"收入","style":"奖金","price":"3000","date":"2019-03-22"}
+{"_id":{"$oid":"5c9485378495dfcb784e40a8"},"uid":"5c9483a98495dfcb784e40a2","icon":"mui-icon mui-icon-weixin","type":"收入","style":"红包","price":"200","date":"2019-03-22"}
+{"_id":{"$oid":"5c9485498495dfcb784e40a9"},"uid":"5c9483a08495dfcb784e40a1","icon":"mui-icon mui-icon-weixin","type":"支出","style":"保险","price":"2000","date":"2019-03-22"}
+{"_id":{"$oid":"5c95a109170985984c294e40"},"uid":"5c9483a08495dfcb784e40a1","icon":"mui-icon mui-icon-star","type":"支入","style":"工资","price":"20000","date":"2019-03-23"}
+{"_id":{"$oid":"5c95a9b2170985984c294e43"},"uid":"5c9483a08495dfcb784e40a1","icon":"mui-icon mui-icon-weixin","type":"支出","style":"保险","price":"2000","date":"2019-03-22"}
+{"_id":{"$oid":"5c95a9b3170985984c294e44"},"uid":"5c9483a08495dfcb784e40a1","icon":"mui-icon mui-icon-locked","type":"支出","style":"保险","price":"2000","date":"2019-03-22"}

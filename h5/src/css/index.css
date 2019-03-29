@@ -1,0 +1,209 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0; }
+
+ul li,
+ol li {
+  list-style: none !important; }
+
+.login {
+  width: 100%;
+  height: 150px;
+  margin-top: 40px; }
+  .login .btn {
+    border: 0; }
+
+.wrapper {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  height: 184px !important;
+  background: #FFE141 !important; }
+  .header .header_top {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    position: relative; }
+  .header .mui-title {
+    flex: 1; }
+  .header .head_box {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 100px;
+    height: 33px;
+    background: #FCF1B2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center; }
+    .header .head_box li {
+      flex: 1;
+      text-align: center;
+      list-style: none !important; }
+  .header .header_center {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px; }
+    .header .header_center .left {
+      width: 100px;
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .header .header_center .left b {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 5px; }
+    .header .header_center .right {
+      width: 116px;
+      height: 30px;
+      display: flex;
+      font-size: 14px; }
+      .header .header_center .right span {
+        border: 1px solid #000;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 30px;
+        padding: 0 3px; }
+      .header .header_center .right i {
+        font-size: 12px; }
+  .header .header_bottom {
+    line-height: 80px; }
+
+.content {
+  top: 240px !important; }
+
+.title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  position: relative;
+  top: 185px; }
+  .title .titLeft {
+    flex: 1; }
+  .title .titRight {
+    flex: 1;
+    text-align: right; }
+  .title i {
+    font-size: 16px; }
+  .title .tabs {
+    flex: 1;
+    width: 100%;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .title .tabs li {
+      width: 100%;
+      height: 100%;
+      line-height: 27px;
+      flex: 1;
+      text-align: center;
+      color: #666;
+      border: 1px solid #ccc;
+      border-radius: 0 10px 10px 0; }
+      .title .tabs li.active {
+        background: #FFE144;
+        color: #222; }
+    .title .tabs li:first-child {
+      border-radius: 10px 0 0 10px; }
+
+.menu li {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #ccc; }
+
+.menu .con {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between; }
+
+.menu span {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px; }
+
+.menu .icon {
+  background: #FFE144;
+  color: #fff;
+  border-radius: 50%; }
+
+.menu .right {
+  display: flex;
+  flex-direction: column; }
+
+.footer {
+  width: 100%;
+  height: 60px !important;
+  box-shadow: 0 -2px 5px #ccc !important;
+  position: relative;
+  background: #fff !important; }
+  .footer .icon {
+    font-size: 26px !important; }
+  .footer .txt {
+    font-size: 20px; }
+  .footer .addBox {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    box-shadow: 0 -3px 5px #ccc !important; }
+    .footer .addBox .add {
+      width: 60px;
+      height: 60px;
+      background: #FFE144;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      text-align: center;
+      font-weight: bolder;
+      color: #fff;
+      box-shadow: 0 0 8px lightsalmon !important; }
+      .footer .addBox .add .ic {
+        display: inline;
+        padding: 0;
+        font-size: 50px !important;
+        line-height: 60px; }
+
+.hide {
+  display: none; }
+
+.red {
+  color: red; }
+
+.green {
+  color: green; }
